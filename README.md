@@ -79,21 +79,9 @@ Docker (opcional)
 
 ### Instalação Local
 
-Frontend (React)
-
-git clone https://github.com/elisangeladias/frontend-idosos.git
-cd frontend-idosos
-npm install
-
-Configure o arquivo .env:
-REACT_APP_API_URL=http://localhost:5000
-
-Inicie a aplicação:
-npm start
-
 Backend (Flask)
 
-git clone https://github.com/elisangeladias/backend-idosos.git
+git clone https://github.com/elisangeladias/mvp-final-backend.git
 cd backend-idosos
 python -m venv venv
 
@@ -112,12 +100,6 @@ python app.py
 
 
 ### 🐳 Execução com Docker
-
-Frontend
-
-docker build -t frontend-idosos .
-
-docker run -p 3000:3000 frontend-idosos
 
 Backend
 
@@ -187,11 +169,6 @@ Exemplo de uso: GET https://viacep.com.br/ws/01001000/json/
 
 ### 🛠️ Estrutura dos Projetos
 
-frontend-idosos/
-├── public/
-├── src/
-├── Dockerfile
-└── package.json
 
 backend-idosos/
 ├── app.py
