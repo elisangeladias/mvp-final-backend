@@ -1,0 +1,49 @@
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Banco de dados SQLite
+*.db
+*.sqlite
+instance/
+
+# Arquivos de ambiente
+.env
+.env.local
+.flaskenv
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e diagnósticos
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes e cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Arquivos gerados pelo Flask
+flask_session/
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
